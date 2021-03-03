@@ -42,3 +42,6 @@
                  });
 
    Код не нагружает систему.
+   
+   ![image](https://user-images.githubusercontent.com/78987903/109872921-bb47e100-7c75-11eb-9174-1134553fa4f5.png)
+
