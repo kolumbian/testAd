@@ -52,6 +52,7 @@
    
    
    4. Сниппет на js.
+   
    4.1. Сразу написал код, который работает по тому же принципу, что и jQuery выше:
    
                   for (let node1 of document.querySelectorAll('img[src^="/files/u"]')) {
