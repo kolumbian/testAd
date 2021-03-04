@@ -1,0 +1,15 @@
+let callback = function(){
+  for (let node1 of document.querySelectorAll('img[src^="/files/u"]')) {
+    node1.style.display ='none'; }
+  for (let node2 of document.querySelectorAll('img[src^="/files/i/oscar"]')) {
+    node2.style.display ='none'; }
+  for (let node3 of document.querySelectorAll('div[class="half right"]')) {
+    node3.style.display ='none'; }
+};
+
+if (document.readyState === "complete" ||
+    (document.readyState !== "loading")) {
+      callback();
+} else {
+    document.addEventListener("DOMContentLoaded", callback);
+};
